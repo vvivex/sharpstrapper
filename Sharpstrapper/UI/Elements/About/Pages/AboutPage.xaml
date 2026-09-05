@@ -121,6 +121,7 @@
                 </StackPanel>
             </controls:Expander>
         </Grid>
+        <TextBlock Text="Sharpstrapper is a fork of Bloxstrap entirely developed by @thatdudesharp on discord. If you find and bugs or issues please report them to our discord server above. Thank you all :)" TextWrapping="Wrap" Foreground="{DynamicResource TextFillColorTertiaryBrush}" FontSize="20" FontFamily="Sitka Text Semibold" />
     </StackPanel>
 </ui:UiPage>
 
