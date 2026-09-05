@@ -1,0 +1,35 @@
+﻿{
+  "profiles": {
+    "Sharpstrapper (Launch)": {
+      "commandName": "Project"
+    },
+    "Sharpstrapper (Quiet Launch)": {
+      "commandName": "Project",
+      "commandLineArgs": "-quiet"
+    },
+    "Sharpstrapper (Uninstall)": {
+      "commandName": "Project",
+      "commandLineArgs": "-uninstall"
+    },
+    "Sharpstrapper (Quiet Uninstall)": {
+      "commandName": "Project",
+      "commandLineArgs": "-uninstall -quiet"
+    },
+    "Sharpstrapper (Menu)": {
+      "commandName": "Project",
+      "commandLineArgs": "-menu"
+    },
+    "Sharpstrapper (Deeplink)": {
+      "commandName": "Project",
+      "commandLineArgs": "-player \"roblox://experiences/start?placeId=13700835620\""
+    },
+    "Sharpstrapper (Studio Launch)": {
+      "commandName": "Project",
+      "commandLineArgs": "-studio"
+    },
+    "Sharpstrapper (Watcher)": {
+      "commandName": "Project",
+      "commandLineArgs": "-watcher"
+    }
+  }
+}

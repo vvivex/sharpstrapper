@@ -1,0 +1,42 @@
+﻿using System.Windows;
+using Sharpstrapper.UI.ViewModels.Installer;
+
+namespace Sharpstrapper.UI.Elements.Installer.Pages
+{
+    /// <summary>
+    /// Interaction logic for WelcomePage.xaml
+    /// </summary>
+    public partial class WelcomePage
+    {
+        private readonly WelcomeViewModel _viewModel = new();
+
+        public WelcomePage()
+        {
+            _viewModel.CanContinueEvent += (_, _) =>
+            {
+                if (Window.GetWindow(this) is MainWindow window)
+                    window.SetButtonEnabled("next", true);
+            };
+
+            DataContext = _viewModel;
+            InitializeComponent();
+        }
+
+        private void UiPage_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (Window.GetWindow(this) is MainWindow window)
+                window.SetNextButtonText(Strings.Common_Navigation_Next);
+
+            // If the ViewModel already allows continuation, enable the next button immediately.
+            if (Window.GetWindow(this) is MainWindow wnd)
+            {
+                wnd.SetButtonEnabled("next", _viewModel.CanContinue);
+                // We're on the first page, so disable the back button.
+                wnd.SetButtonEnabled("back", false);
+            }
+
+            _viewModel.DoChecks();
+        }
+    }
+}
+

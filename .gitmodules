@@ -1,0 +1,4 @@
+﻿[submodule "wpfui"]
+	path = wpfui
+	url = https://github.com/Sharpstrapperlabs/wpfui.git
+
