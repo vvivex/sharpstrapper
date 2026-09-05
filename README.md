@@ -1,8 +1,8 @@
 ﻿> [!CAUTION]
-> The only official places to download Sharpstrapper are this GitHub repository and [Sharpstrapperlabs.com](https://Sharpstrapperlabs.com). Any other websites offering downloads or claiming to be us are not owned by us.
+> The only official place to download Sharpstrapper is this GitHub repository. Any other websites offering downloads or claiming to be us are not owned by us.
 
 > [!IMPORTANT]
-> Sharpstrapper is not under active development anymore. Any issues or pull requests opened may take a while to get a response.
+> Sharpstrapper is under active development. If you find any bugs please report them in our discord!.
 
 <p align="center">
     <img src="https://github.com/Sharpstrapperlabs/Sharpstrapper/raw/main/Images/Sharpstrapper-full-dark.png#gh-dark-mode-only" width="380">
@@ -25,19 +25,17 @@
 
 Sharpstrapper is a third-party replacement for the standard Roblox bootstrapper, providing additional useful features and improvements.
 
-Running into a problem or need help with something? [Check out the Wiki](https://Sharpstrapperlabs.com/wiki). If you can't find anything, or would like to suggest something, please [submit an issue](https://github.com/Sharpstrapperlabs/Sharpstrapper/issues).
-
 Sharpstrapper is only supported for PCs running Windows.
 
 ## Frequently Asked Questions
 
 **Q: Is this malware?**
 
-**A:** No. The source code here is viewable to all, and it'd be impossible for us to slip anything malicious into the downloads without anyone noticing. Just be sure you're downloading it from an official source. The only two official sources are this GitHub repository and [Sharpstrapperlabs.com](https://Sharpstrapperlabs.com).
+**A:** No. The source code here is viewable to all, and it'd be impossible for us to slip anything malicious into the downloads without anyone noticing. Just be sure you're downloading it from an official source. The only two official source is this GitHub repository.
 
 **Q: Can using this get me banned?**
 
-**A:** No, it shouldn't. Sharpstrapper doesn't interact with the Roblox client in the same way that exploits do. [Read more about that here.](https://Sharpstrapperlabs.com/wiki/info/Sharpstrapper-and-bans)
+**A:** No, it shouldn't. Sharpstrapper doesn't interact with the Roblox client in the same way that exploits do.
 ## Features
 
 - Hassle-free Discord Rich Presence to let your friends know what you're playing at a glance
@@ -46,12 +44,7 @@ Sharpstrapper is only supported for PCs running Windows.
 - Ability to configure graphics fidelity and UI experience
 
 ## Installing
-Download the [latest release of Sharpstrapper](https://github.com/Sharpstrapperlabs/Sharpstrapper/releases/latest), and run it. Configure your preferences if needed, and install. That's about it!
-
-Alternatively, you can install Sharpstrapper via [Winget](https://winstall.app/apps/pizzaboxer.Sharpstrapper) by running this in a Command Prompt window:
-```
-> winget install Sharpstrapper
-```
+Download the latest release of Sharpstrapper, and run it. Configure your preferences if needed, and install. That's about it!
 
 You will also need the [.NET 6 Desktop Runtime](https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=x64&rid=win11-x64&apphost_version=6.0.36&gui=true). If you don't already have it installed, you'll be prompted to install it anyway. Be sure to install Sharpstrapper after you've installed this.
 
@@ -61,7 +54,7 @@ Once installed, Sharpstrapper is added to your Start Menu, where you can access 
 
 ## Code
 
-Sharpstrapper uses the [WPF UI](https://github.com/lepoco/wpfui) library for the user interface design. We currently use and maintain our own fork of WPF UI at [Sharpstrapperlabs/wpfui](https://github.com/Sharpstrapperlabs/wpfui).
+Sharpstrapper uses the [WPF UI](https://github.com/lepoco/wpfui) library for the user interface design. We currently use and maintain our own fork of WPF UI at Sharpstrapperlabs/wpfui.
 
 
 [shield-repo-license]:  https://img.shields.io/github/license/Sharpstrapperlabs/Sharpstrapper
@@ -78,8 +71,7 @@ Sharpstrapper uses the [WPF UI](https://github.com/lepoco/wpfui) library for the
 [repo-releases]: https://github.com/Sharpstrapperlabs/Sharpstrapper/releases
 [repo-latest]:   https://github.com/Sharpstrapperlabs/Sharpstrapper/releases/latest
 
-[crowdin-project]: https://crowdin.com/project/Sharpstrapper
-[discord-invite]:  https://discord.gg/nKjV3mGq6R
+[discord-invite]:  https://discord.gg/BwT3GX5dPJ
 [tenor-gif]:       https://media.tenor.com/FIkSGbGycmAAAAAd/manly-roblox.gif
 
 ## Code signing policy
