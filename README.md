@@ -4,13 +4,6 @@
 > [!IMPORTANT]
 > Sharpstrapper is under active development. If you find any bugs please report them in our discord!.
 
-<p align="center">
-    <img src="https://github.com/Sharpstrapperlabs/Sharpstrapper/raw/main/Images/Sharpstrapper-full-dark.png#gh-dark-mode-only" width="380">
-    <img src="https://github.com/Sharpstrapperlabs/Sharpstrapper/raw/main/Images/Sharpstrapper-full-light.png#gh-light-mode-only" width="380">
-</p>
-
-<div align="center">
-
 [![License][shield-repo-license]][repo-license]
 [![GitHub Workflow Status][shield-repo-workflow]][repo-actions]
 [![Downloads][shield-repo-releases]][repo-releases]
