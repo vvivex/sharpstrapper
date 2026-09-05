@@ -5,7 +5,6 @@
 > Sharpstrapper is under active development. If you find any bugs please report them in our discord!.
 
 [![License][shield-repo-license]][repo-license]
-[![GitHub Workflow Status][shield-repo-workflow]][repo-actions]
 [![Downloads][shield-repo-releases]][repo-releases]
 [![Version][shield-repo-latest]][repo-latest]
 [![Discord][shield-discord-server]][discord-invite]
