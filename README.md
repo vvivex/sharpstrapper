@@ -62,7 +62,6 @@ Sharpstrapper uses the [WPF UI](https://github.com/lepoco/wpfui) library for the
 [shield-repo-releases]: https://img.shields.io/github/downloads/Sharpstrapperlabs/Sharpstrapper/latest/total?color=981bfe
 [shield-repo-latest]:   https://img.shields.io/github/v/release/Sharpstrapperlabs/Sharpstrapper?color=7a39fb
 
-[shield-crowdin-status]: https://badges.crowdin.net/Sharpstrapper/localized.svg
 [shield-discord-server]: https://img.shields.io/discord/1099468797410283540?logo=discord&logoColor=white&label=discord&color=4d3dff
 [shield-tenor-meme]:     https://img.shields.io/badge/mom_made-pizza_rolls-orange
 
@@ -73,8 +72,3 @@ Sharpstrapper uses the [WPF UI](https://github.com/lepoco/wpfui) library for the
 
 [discord-invite]:  https://discord.gg/BwT3GX5dPJ
 [tenor-gif]:       https://media.tenor.com/FIkSGbGycmAAAAAd/manly-roblox.gif
-
-## Code signing policy
-
-Thanks to [SignPath.io](https://signpath.io/) for providing a free code signing service, and the [SignPath Foundation](https://signpath.org/) for providing the free code signing certificate.
-
