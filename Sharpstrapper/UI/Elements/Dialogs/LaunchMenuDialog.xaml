@@ -12,7 +12,7 @@
         Title="Sharpstrapper"
         MinWidth="0"
         MinHeight="0"
-        Width="580"
+        Width="509"
         SizeToContent="Height"
         ResizeMode="NoResize"
         Background="{ui:ThemeResource ApplicationBackgroundBrush}"
@@ -32,13 +32,13 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <Grid Grid.Column="0" VerticalAlignment="Center">
+            <Grid Grid.Column="0" VerticalAlignment="Center" Height="102" Margin="0,0,55,0">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
-                
-                <Grid Grid.Row="0" HorizontalAlignment="Center" Margin="0,0,0,32">
+
+                <Grid Grid.Row="0" HorizontalAlignment="Center" Margin="0,0,0,32" Width="225">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="Auto" />
                         <ColumnDefinition Width="*" />
@@ -51,14 +51,10 @@
                     </StackPanel>
                 </Grid>
 
-                <StackPanel Grid.Row="1" HorizontalAlignment="Center">
-                    <ui:Hyperlink Icon="QuestionCircle48" Content="{x:Static resources:Strings.About_Title}" Command="{Binding LaunchAboutCommand, Mode=OneTime}" HorizontalAlignment="Center" />
-                    <ui:Hyperlink Icon="Book24" Content="{x:Static resources:Strings.LaunchMenu_SharpstrapperWiki}" NavigateUri="https://Sharpstrapperlabs.com/wiki/" HorizontalAlignment="Center" />
-                    <ui:Hyperlink Icon="PeopleCommunity28" Content="{x:Static resources:Strings.LaunchMenu_RobloxCommunity}" NavigateUri="https://www.roblox.com/communities/32380007/Sharpstrapper" HorizontalAlignment="Center" />
-                </StackPanel>
+                <StackPanel Grid.Row="1" HorizontalAlignment="Center"/>
             </Grid>
 
-            <StackPanel Grid.Column="1" Margin="16">
+            <StackPanel Margin="254,22,10,10" Grid.ColumnSpan="2">
                 <ui:CardAction Icon="ArrowRight12" TabIndex="0" Command="{Binding LaunchRobloxCommand, Mode=OneTime}">
                     <StackPanel>
                         <TextBlock FontSize="14" Text="{x:Static resources:Strings.LaunchMenu_LaunchRoblox}" />
@@ -78,13 +74,6 @@
                 </ui:CardAction>
 
                 <Border Margin="16" />
-
-                <ui:CardAction Margin="0,8,0,0" TabIndex="2" Icon="BookQuestionMark24" Command="models:GlobalViewModel.OpenWebpageCommand" CommandParameter="https://Sharpstrapperlabs.com/wiki/help/">
-                    <StackPanel>
-                        <TextBlock FontSize="14" Text="{x:Static resources:Strings.LaunchMenu_Wiki_Title}" />
-                        <TextBlock Margin="0,2,0,0" FontSize="12" Text="{x:Static resources:Strings.LaunchMenu_Wiki_Description}" Padding="0,0,16,0"  Foreground="{DynamicResource TextFillColorTertiaryBrush}" />
-                    </StackPanel>
-                </ui:CardAction>
             </StackPanel>
         </Grid>
     </Grid>

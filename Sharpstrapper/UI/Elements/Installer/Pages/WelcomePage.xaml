@@ -18,15 +18,7 @@
       Loaded="UiPage_Loaded">
 
     <StackPanel Margin="0,0,14,14">
-        <controls:MarkdownTextBlock FontSize="14" MarkdownText="{Binding MainText, Mode=OneWay}" TextWrapping="Wrap" IsEnabled="False" >
-            <controls:MarkdownTextBlock.Inlines>
-                <Run Text="Thanks for using SharpStrapper!&#xA;&#xA;The only official websites to download Sharpstrapper from are ##soon##, so please verify that you got it from an official source.&#xA;&#xA;This installation process will be quick and simple, and you will be able to configure any of Sharpstrapper's settings after installation."/>
-                <LineBreak/>
-                <Run/>
-                <LineBreak/>
-                <Run/>
-            </controls:MarkdownTextBlock.Inlines>
-        </controls:MarkdownTextBlock>
+        <controls:MarkdownTextBlock FontSize="14" MarkdownText="{Binding MainText, Mode=OneWay}" TextWrapping="Wrap" IsEnabled="False" Text="Thanks for using SharpStrapper!&#xA;&#xA;The only official websites to download Sharpstrapper from are https://github.com/vvivex/sharpstrapper, so please verify that you got it from an official source.&#xA;&#xA;This installation process will be quick and simple, and you will be able to configure any of Sharpstrapper's settings after installation.&#xD;&#xA;&#xD;&#xA;" />
 
         <Grid Margin="0,24,0,0">
             <Grid.Style>

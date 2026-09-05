@@ -15,7 +15,7 @@
       Scrollable="True">
     <StackPanel Margin="0,0,14,14">
         <TextBlock Text="{x:Static resources:Strings.About_Supporters_Title}" FontWeight="Medium" FontSize="24" />
-        <controls:MarkdownTextBlock MarkdownText="{x:Static resources:Strings.About_Supporters_Description}" TextWrapping="Wrap" Foreground="{DynamicResource TextFillColorTertiaryBrush}" />
+        <controls:MarkdownTextBlock MarkdownText="{x:Static resources:Strings.About_Supporters_Description}" TextWrapping="Wrap" Foreground="{DynamicResource TextFillColorTertiaryBrush}" Text="This feature has not been added yet. Please contact thatdudesharp on discord to support or donate!" />
 
         <Grid Margin="0,8,0,0">
             <Grid.Style>
