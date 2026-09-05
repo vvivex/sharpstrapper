@@ -57,10 +57,10 @@ Sharpstrapper uses the [WPF UI](https://github.com/lepoco/wpfui) library for the
 [shield-discord-server]: https://img.shields.io/discord/1099468797410283540?logo=discord&logoColor=white&label=discord&color=4d3dff
 [shield-tenor-meme]:     https://img.shields.io/badge/mom_made-pizza_rolls-orange
 
-[repo-license]:  https://github.com/Sharpstrapperlabs/Sharpstrapper/blob/main/LICENSE
-[repo-actions]:  https://github.com/Sharpstrapperlabs/Sharpstrapper/actions
-[repo-releases]: https://github.com/Sharpstrapperlabs/Sharpstrapper/releases
-[repo-latest]:   https://github.com/Sharpstrapperlabs/Sharpstrapper/releases/latest
+[repo-license]:  https://github.com/vvivex/sharpstrapper/blob/main/LICENSE
+[repo-actions]:  https://github.com/vivvex/harpstrapper/actions
+[repo-releases]: https://github.com/vvivex/sharpstrapper/releases
+[repo-latest]:   https://github.com/vvivex/sharpstrapper/latest
 
 [discord-invite]:  https://discord.gg/BwT3GX5dPJ
 [tenor-gif]:       https://media.tenor.com/FIkSGbGycmAAAAAd/manly-roblox.gif
