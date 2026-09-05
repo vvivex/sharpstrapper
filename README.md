@@ -7,7 +7,7 @@
 [![License][shield-repo-license]][repo-license]
 [![Downloads][shield-repo-releases]][repo-releases]
 [![Version][shield-repo-latest]][repo-latest]
-[![Discord][shield-discord-server][discord-invite]
+[![Discord][shield-discord-server]][discord-invite]
 [![lol][shield-tenor-meme]][tenor-gif]
 
 </div>
